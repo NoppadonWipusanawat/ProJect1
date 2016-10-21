@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="Search">ค้นหา</string>
+    <string name="Build">โปรดระบุหมายเลขห้อง</string>
+    <string name="Name">ชื่อ</string>
+    <string name="Login">ล็อกอิน</string>
+    <string name="Admin">สำหรับเจ้าหน้าที่</string>
+    <string name="Register">สมัครสมาชิก</string>
+    <string name="SingUp">ลงทะเบียน</string>
+    <string name="Build1">เพิ่มข้อมูลอาคาร</string>
+    <string name="Shop">เพิ่มข้อมูลร้านค้า</string>
+    <string name="Dorm">เพิ่มข้อมูลหอพัก</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="pbru">ระบบสืบค้นและระบุตำแหน่ง</string>
+    <string name="username">ชื่อผู้ใช้</string>
+    <string name="Password">รหัสผ่าน</string>
+</resources>
