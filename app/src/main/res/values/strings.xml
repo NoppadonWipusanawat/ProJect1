@@ -19,4 +19,9 @@
     <string name="email">อีเมล</string>
     <string name="phone">เบอร์โทร</string>
     <string name="User">User :</string>
+    <string name="title_haveSpace">มีช่องว่าง</string>
+    <string name="message_haveSpace">กรุณากรอกทุกช่อง</string>
+
+
+
 </resources>
