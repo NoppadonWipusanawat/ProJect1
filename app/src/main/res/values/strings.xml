@@ -18,4 +18,5 @@
     <string name="user_name">ชื่อ-นามสกุล</string>
     <string name="email">อีเมล</string>
     <string name="phone">เบอร์โทร</string>
+    <string name="User">User :</string>
 </resources>

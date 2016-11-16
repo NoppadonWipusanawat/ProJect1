@@ -11,6 +11,15 @@
     tools:context="com.example.n56j.project1.ActivityRegisterAdmin"
     android:background="@drawable/wall22">
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Register"
+        android:id="@+id/button7"
+        android:layout_alignParentBottom="true"
+
+         />
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -29,149 +38,114 @@
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout15"
-        android:layout_below="@+id/linearLayout14"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="authorities_id"
-            android:id="@+id/textView8"
-            android:textSize="@dimen/h1" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText10" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout16"
-        android:layout_below="@+id/linearLayout15"
-        android:layout_centerHorizontal="true">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="authorities_name"
-            android:id="@+id/textView9"
-            android:textSize="@dimen/h1" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText11" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout17"
-        android:layout_below="@+id/linearLayout16"
-        android:layout_centerHorizontal="true">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="birthday"
-            android:id="@+id/textView10"
-            android:textSize="@dimen/h1" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText12" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout18"
-        android:layout_below="@+id/linearLayout17"
-        android:layout_centerHorizontal="true">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sex"
-            android:id="@+id/textView11"
-            android:textSize="@dimen/h1" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText13" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout19"
-        android:layout_below="@+id/linearLayout18"
-        android:layout_centerHorizontal="true">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Email"
-            android:id="@+id/textView12"
-            android:textSize="@dimen/h1" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText14" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout20"
-        android:layout_below="@+id/linearLayout19"
-        android:layout_centerHorizontal="true">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Phone"
-            android:id="@+id/textView13"
-            android:textSize="@dimen/h1" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText15" />
-    </LinearLayout>
-
-    <LinearLayout
         android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/linearLayout20"
-        android:id="@+id/linearLayout21"
-        android:layout_centerHorizontal="true">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Register"
-            android:id="@+id/button7"
-            android:layout_alignTop="@+id/linearLayout21"
-            android:layout_toRightOf="@+id/linearLayout21"
-            android:layout_toEndOf="@+id/linearLayout21"
-            android:layout_gravity="center_horizontal" />
+        android:layout_below="@+id/linearLayout14"
+        android:padding="15dp"
+        android:layout_marginTop="50dp"
+        android:background="#82ffffff">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout15"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="@string/User"
+                android:id="@+id/textView8"
+                android:textSize="@dimen/h1"
+                android:textStyle="normal|bold"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:id="@+id/editText10"
+                android:inputType="text"
+                android:layout_width="0dp"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout16"
+            android:layout_below="@+id/linearLayout15"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="@string/Password"
+                android:id="@+id/textView9"
+                android:textSize="@dimen/h1"
+                android:textStyle="normal|bold"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:id="@+id/editText11"
+                android:inputType="text"
+                android:layout_width="0dp"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout19"
+
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:id="@+id/textView12"
+                android:textSize="@dimen/h1"
+                android:textStyle="normal|bold"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:id="@+id/editText14"
+                android:inputType="text"
+                android:layout_width="0dp"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout20"
+            android:layout_below="@+id/linearLayout19"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:id="@+id/textView13"
+                android:textSize="@dimen/h1"
+                android:textStyle="normal|bold"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:id="@+id/editText15"
+                android:inputType="text"
+                android:layout_width="0dp"
+                android:layout_weight="2" />
+        </LinearLayout>
+
     </LinearLayout>
 
 </RelativeLayout>
