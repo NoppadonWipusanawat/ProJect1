@@ -25,8 +25,7 @@
     <string name="message_userFalse">ไม่มีข้อมูล</string>
     <string name="title_passwordFalse">password ผิด</string>
     <string name="message_passwordFalse">กรอกพาสเวิดใหม่</string>
-
-
+    <string name="title_activity_service">Map</string>
 
 
 </resources>

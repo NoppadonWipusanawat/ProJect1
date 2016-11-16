@@ -77,6 +77,10 @@ public class ActivityAdmin extends AppCompatActivity {
                 } else if (passwordString.equals(truePasswordString)) {
                     Toast.makeText(ActivityAdmin.this, "WelCome",Toast.LENGTH_SHORT).show();
 
+                    Intent intent = new Intent(ActivityAdmin.this, ServiceActivity.class);
+                    startActivity(intent);
+                    finish();
+
                 } else {
                     MyAlert myAlert = new MyAlert(ActivityAdmin.this,
                             R.drawable.kon48,
